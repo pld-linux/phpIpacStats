@@ -1,11 +1,11 @@
-diff -urN phpIpacStats-0.4.1.org/config.php phpIpacStats-0.4.1/config.php
---- phpIpacStats-0.4.1.org/config.php	Tue Aug 13 23:25:43 2002
-+++ phpIpacStats-0.4.1/config.php	Tue Aug 13 23:26:05 2002
-@@ -16,7 +16,7 @@
- // You can specify the real config-file (typically in /etc/...) or you make 
- // a copy and comment out rules which you do not want to be displayed images
+diff -urN phpIpacStats-0.5.org/config.php phpIpacStats-0.5/config.php
+--- phpIpacStats-0.5.org/config.php	2003-06-19 22:58:41.000000000 +0200
++++ phpIpacStats-0.5/config.php	2003-06-19 22:59:44.000000000 +0200
+@@ -18,7 +18,7 @@
  // for. 
--$ipac_conffile	    =	'ipac.conf';
+ // Usually either /etc/ipac-ng/ipac.conf or /etc/ipac-ng/rules.conf
+ // For ipac-ng 1.23 and above it may be named rules.conf per default
+-$ipac_conffile	    =	'/etc/ipac-ng/rules.conf';
 +$ipac_conffile	    =	'/etc/ipac-ng/ipac.conf';
  
  // $ipacsum_executable specifies the path to your ipacsum program. you can 
