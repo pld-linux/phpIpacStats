@@ -12,7 +12,7 @@ URL:		http://phpipacstats.sourceforge.net/
 Requires:	webserver
 Requires:	php
 Requires:	ipac-ng
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
