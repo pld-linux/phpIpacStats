@@ -5,7 +5,7 @@ Version:	0.4.1
 Release:	1
 License:	LGPL
 Group:		Applications/System
-Source0:	http://prdownloads.sourceforge.net/phpipacstats/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/phpipacstats/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-conf.patch
 URL:		http://phpipacstats.sourceforge.net/
 Requires:	webserver
