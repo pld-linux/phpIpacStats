@@ -2,16 +2,16 @@ Summary:	Web interface to ipac-ng statistics
 Summary(pl):	Interfejs WWW do statystyk ipac-ng
 Name:		phpIpacStats
 Version:	0.5
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/phpipacstats/%{name}-%{version}.tar.bz2
 # Source0-md5:	56ce8212490cee1c1b01ac46c917b715
 Patch0:		%{name}-conf.patch
 URL:		http://phpipacstats.sourceforge.net/
-Requires:	webserver
-Requires:	php
 Requires:	ipac-ng
+Requires:	webserver
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
