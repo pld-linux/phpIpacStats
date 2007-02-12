@@ -1,5 +1,5 @@
 Summary:	Web interface to ipac-ng statistics
-Summary(pl):	Interfejs WWW do statystyk ipac-ng
+Summary(pl.UTF-8):   Interfejs WWW do statystyk ipac-ng
 Name:		phpIpacStats
 Version:	0.5
 Release:	2
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Web interface to ipac-ng statistics.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejs WWW do statystyk ipac-ng.
 
 %prep
